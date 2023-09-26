@@ -4,7 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import "../node_modules/@fortawesome/fontawesome-free/css/all.css"
+
+
+const root = ReactDOM.createRoot(document.getElemegintById('root'));
 root.render(
   <React.StrictMode>
     <App />
