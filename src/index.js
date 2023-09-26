@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import "../node_modules/@fortawesome/fontawesome-free/css/all.css"
 
 
-const root = ReactDOM.createRoot(document.getElemegintById('root'));
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
