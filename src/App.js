@@ -1,11 +1,19 @@
- import './App.css';
- import React from 'react';
+import './App.css';
+import React from 'react';
+import NavBar from './components/navbar/NavBar';
+import { Routes, Route } from 'react-router-dom';
+import ContactList from "./components/contacts/contactlist/ContactList"
 
-function App() {
+let App = () => {
   return (
-    <div className="App">
-    <h2 className='text-3xl'>Hello world</h2>
-    </div>
+    <>
+      <NavBar />
+      <Routes>
+        <Route path={"/"} />
+        <Route path={"/contact/list"} element={<ContactList />} />
+      </Routes>
+
+    </>
   );
 }
 
