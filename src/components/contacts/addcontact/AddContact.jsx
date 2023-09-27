@@ -3,7 +3,7 @@ import React from "react"
 
 let AddContact = () => {
     return (<>
-        <h2>Add Contact</h2>
+        <h2 className="text-8xl">Add Contact</h2>
     </>)
 }
 
