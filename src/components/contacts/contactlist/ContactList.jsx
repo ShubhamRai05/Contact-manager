@@ -19,7 +19,7 @@ let ContactList = () => {
                     </div>
                 </div>
             </section>
-            <section className="contact-list ">
+            <section className="contact-list">
                 
 
             </section>
