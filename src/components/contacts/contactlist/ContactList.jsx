@@ -15,7 +15,7 @@ let ContactList = () => {
                         <div class="mb-4">
 
                             <input className="shadow appearance-none border rounded py-2 px-3 text-gray-700 mt-4 leading-tight focus:outline-none focus:outline-1" id="search" type="text" placeholder="Search Here" />
-                            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-2 m-2 rounded">Search</button>
+                            <button className="bg-blue-500 hover:bg-blue-700  text-white font-bold py-1 px-2 m-2 rounded">Search</button>
                         </div>
                     </div>
                 </div>
