@@ -6,7 +6,7 @@ let ContactList = () => {
         <>
             <section className="contact-search container">
                 <div className="">
-                    <p className=" mt-8 mb-4"><span className="text-xl font-semibold"> Contact Manager</span>
+                    <p className=" mt-8 mb-4"><span className="text-xl font-semibold "> Contact Manager</span>
                         <Link to={"/contacts/add"} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 m-5 px-4 rounded">
                             <i className="fa fa-plus-circle" /> New</Link></p>
                     <p className="italic font-light ">loremlorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem"</p>
