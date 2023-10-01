@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
 
-let ContactList = () => {
+ let ContactList = () => {
     return (
         <>
             <section className="contact-search container">
@@ -20,9 +20,15 @@ let ContactList = () => {
                     </div>
                 </div>
             </section>
-            <section className="contact-list">
+            <section className="contact-list flex flex-col container">
 
-
+                <div>
+                    <div className="card-image ">
+                        <img className="h-48 w-40"  src="https://img.freepik.com/premium-vector/business-global-economy_24877-41082.jpg"/>
+                    </div>
+                </div>
+                <div>Hii</div>
+                <div>H ii</div>
             </section>
         </>
     )
