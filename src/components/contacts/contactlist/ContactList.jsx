@@ -20,8 +20,8 @@ let ContactList = () => {
                     </div>
                 </div>
             </section>
-            <section className="contact-list flex flex-row  container justify-evenly">
-                <div className="card flex flex-row justify-evenly gap-3 border border-red-100 p-6">
+            <section className="contact-list flex flex-row  container justify-evenly flex-wrap">
+                <div className="card flex flex-row justify-evenly gap-3 border border-red-100 p-6 bg-white">
                          <div className="card-image ">
                             <img className="h-48 w-40" src="https://img.freepik.com/premium-vector/business-global-economy_24877-41082.jpg" />
                         </div>
@@ -44,7 +44,7 @@ let ContactList = () => {
                     </div>
                 </div>
 
-                <div className="card flex flex-row gap-3 border border-red-100 p-6 ">
+                <div className="card flex flex-row gap-3 border border-red-100 p-6 bg-white ">
                     <div>
                         <div className="card-image ">
                             <img className="h-48 w-40" src="https://img.freepik.com/premium-vector/business-global-economy_24877-41082.jpg" />
