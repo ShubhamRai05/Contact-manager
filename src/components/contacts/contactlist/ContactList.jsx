@@ -1,10 +1,10 @@
 import React from "react"
 import { Link } from "react-router-dom"
 
- let ContactList = () => {
+let ContactList = () => {
     return (
         <>
-            <section className="contact-search container">
+            <section className="contact-search container ">
                 <div className="">
                     <p className=" mt-8 mb-4">
                         <span className="text-xl font-semibold "> Contact Manager</span>
@@ -20,16 +20,57 @@ import { Link } from "react-router-dom"
                     </div>
                 </div>
             </section>
-            <section className="contact-list flex flex-col container">
+            <section className="contact-list flex flex-row  container justify-evenly">
+                <div className="card flex flex-row justify-evenly gap-3">
+                         <div className="card-image ">
+                            <img className="h-48 w-40" src="https://img.freepik.com/premium-vector/business-global-economy_24877-41082.jpg" />
+                        </div>
+                     <div className="personal-details">
+                        <div>
+                            <span>Name : </span><h3>Brad Gibson</h3>
+                        </div>
+                        <div>
+                            <span>Mobile : </span><h3>8928213249</h3>
+                        </div>
+                        <div>
+                            <span>Email : </span><h3>contacthere.shubham@gmail.com</h3>
+                        </div>
+                    </div>
+                    <div className="flex flex-col justify-between">
+                        <div><button><i className="fa fa-eye"></i></button></div>
+                        <div><button><i className="fa fa-pencil"></i></button></div>
+                        <div><button><i className="fa fa-trash"></i></button></div>
 
-                <div>
-                    <div className="card-image ">
-                        <img className="h-48 w-40"  src="https://img.freepik.com/premium-vector/business-global-economy_24877-41082.jpg"/>
                     </div>
                 </div>
-                <div>Hii</div>
-                <div>H ii</div>
+
+                <div className="card flex flex-row gap-3">
+                    <div>
+                        <div className="card-image ">
+                            <img className="h-48 w-40" src="https://img.freepik.com/premium-vector/business-global-economy_24877-41082.jpg" />
+                        </div>
+                    </div>
+                    <div className="personal-details">
+                        <div>
+                            <span>Name : </span><h3>Brad Gibson</h3>
+                        </div>
+                        <div>
+                            <span>Mobile : </span><h3>8928213249</h3>
+                        </div>
+                        <div>
+                            <span>Email : </span><h3>contacthere.shubham@gmail.com</h3>
+                        </div>
+                    </div>
+                    <div className="flex flex-col justify-between">
+                        <div><button><i className="fa fa-eye text-bl"></i></button></div>
+                        <div><button><i className="fa fa-pencil"></i></button></div>
+                        <div><button><i className="fa fa-trash"></i></button></div>
+
+                    </div>
+                </div>
+
             </section>
+
         </>
     )
 }
