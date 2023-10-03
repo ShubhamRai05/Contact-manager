@@ -20,26 +20,26 @@ let ContactList = () => {
                     </div>
                 </div>
             </section>
-            <section className="contact-list flex flex-row  container justify-evenly flex-wrap">
+            <section className="contact-list flex flex-row  container justify-evenly flex-wrap gap-8">
                 <div className="card flex flex-row justify-evenly gap-3 border border-red-100 p-6 bg-white">
-                         <div className="card-image ">
-                            <img className="h-48 w-40" src="https://img.freepik.com/premium-vector/business-global-economy_24877-41082.jpg" />
-                        </div>
-                     <div className="personal-details">
-                        <div>
-                            <span>Name : </span><h3>Brad Gibson</h3>
-                        </div>
-                        <div>
-                            <span>Mobile : </span><h3>8928213249</h3>
+                    <div className="card-image ">
+                        <img className="h-48 w-40" src="https://img.freepik.com/premium-vector/business-global-economy_24877-41082.jpg" />
+                    </div>
+                    <div className="personal-details flex  flex-col justify-center gap-8">
+                    <div>
+                            Name : <span>Brad Gibson</span>
                         </div>
                         <div>
-                            <span>Email : </span><h3>contacthere.shubham@gmail.com</h3>
+                            Mobile : <span> 8928213249</span>
+                        </div>
+                        <div>
+                        Email :  <span> contacthere.shubham@gmail.com </span>
                         </div>
                     </div>
                     <div className="flex flex-col justify-between">
-                        <div><button><i className="fa fa-eye"></i></button></div>
-                        <div><button><i className="fa fa-pencil"></i></button></div>
-                        <div><button><i className="fa fa-trash"></i></button></div>
+                        <div><Link to={"/contacts/view/:contactId"}><button><i className="fa fa-eye"></i></button></Link></div>
+                        <div><Link to={"/contacts/edit/:contactId"}><button><i className="fa fa-pencil"></i></button></Link></div>
+                        <div><Link><button><i className="fa fa-trash"></i></button></Link></div>
 
                     </div>
                 </div>
@@ -50,15 +50,15 @@ let ContactList = () => {
                             <img className="h-48 w-40" src="https://img.freepik.com/premium-vector/business-global-economy_24877-41082.jpg" />
                         </div>
                     </div>
-                    <div className="personal-details">
+                    <div className="personal-details flex  flex-col justify-center gap-8">
                         <div>
-                            <span>Name : </span><h3>Brad Gibson</h3>
+                            Name : <span>Brad Gibson</span>
                         </div>
                         <div>
-                            <span>Mobile : </span><h3>8928213249</h3>
+                            Mobile : <span> 8928213249</span>
                         </div>
                         <div>
-                            <span>Email : </span><h3>contacthere.shubham@gmail.com</h3>
+                        Email :  <span> contacthere.shubham@gmail.com </span>
                         </div>
                     </div>
                     <div className="flex flex-col justify-between">
