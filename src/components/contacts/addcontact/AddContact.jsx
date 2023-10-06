@@ -3,7 +3,9 @@ import React from "react"
 
 let AddContact = () => {
     return (<>
-        <h2 >Add Contact</h2>
+        <section className="container">
+<h1>Create Contact</h1>
+        </section>
     </>)
 }
 
