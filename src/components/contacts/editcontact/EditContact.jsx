@@ -6,7 +6,7 @@ let EditContact = () => {
         <>
             <section className="container p-3">
                 <h1 className="text-xl font-semibold ">Edit Contact </h1>
-                <p className="font-light italic text-sm pt-4" >Consequat dof sunt et sint dolore officia nostrud quis. Voluptate et qui id eu ipsum id proident elit fugiat. Deserunt voluptate eu magna labore cillum enim est ullamco do officia dolor anim ex. Laboris ad exercitation duis aute magna sit consequat sit occaecat. Exercitation elit anim cupidatat ullamco esse voluptate adipisicing eu enim. Tempor aliquip cillum Lorem ullamco cupidatat veniam velit ex duis consequat ipsum anim esse.</p>
+                <p className="font-light italic text-sm pt-4" >Consequat dof sunt et sint dolore officia nostrud quis. Voluptate et qui id eu ipsum id proident elit fugiat. Deserunt voluptate eu magna labore cillum enim est ullamco do officia dolor anim ex. Laboris ad exercitation duis aute magna sit consequat sit occaecat. Exercitation elit anim cupidatat ullamco esse voluptgate adipisicing eu enim. Tempor aliquip cillum Lorem ullamco cupidatat veniam velit ex duis consequat ipsum anim esse.</p>
                 <form className=" flex flex-row p-4 ">
                     <div className="form-container flex flex-col gap-4 w-1/2">
                         <div>
