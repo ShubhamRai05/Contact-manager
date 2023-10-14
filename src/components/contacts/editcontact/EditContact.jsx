@@ -37,7 +37,7 @@ let EditContact = () => {
 
                         </div>
                             <div>
-                                <Link to="/contacts/list"><button className="bg-blue-500 hover:bg-blue-700  text-white font-bold py-1 px-2 m-2 rounded">Cancel</button></Link>
+                                <Link to="/contacts/list"><button className="bg-blue-500 hover:bg-blue-600  text-white font-bold py-1 px-2 m-2 rounded">Cancel</button></Link>
 
                             </div>
                         </div>
